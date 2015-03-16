@@ -40,8 +40,7 @@ public class ConnectionFactoryWrapper implements IConnectionFactoryWrapper {
 	}
 
 	public void applyAuthentication(String username, String password) {
-		logger.info("username = ["+username+"] password = ["+password+"]");
-		factory.setUsername(username);
+				factory.setUsername(username);
 		factory.setPassword(password);
 	}
 	
